@@ -1,0 +1,18 @@
+# classexerciseifelse
+public class Ifelse{
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter your age:");
+
+        int G =scan.nextInt();
+        System.outprintln(G);
+
+        if (G <=27 && G>=21){
+            System.out.println("You are legible for this job");
+
+        } 
+         else if (G >=28 && G <= 21){
+            System.out.println("Unfortunately you are not legible for this job");
+         }
+    }
+}
